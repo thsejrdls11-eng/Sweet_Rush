@@ -8,117 +8,117 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Fluid - Chocolate Brown.003
-    second: {fileID: 2100000, guid: 4293a4e2990bec94facd246e3e1799c1, type: 2}
+    second: {fileID: 2100000, guid: 14a5e71bd348df1469904b58c30ca2a1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Low
-    second: {fileID: 2100000, guid: 4dc7f00805e42844aa95854ba5344706, type: 2}
+    second: {fileID: 2100000, guid: 8329312c26847654895a0c479fda2c10, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.016
-    second: {fileID: 2100000, guid: 6a22a13f7648d8447b8e7fb8063a43fb, type: 2}
+    second: {fileID: 2100000, guid: 8ab24713bde2be745bc27d8640fa25ed, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: mountain.001
-    second: {fileID: 2100000, guid: d87aa0188415fb54ba76ff5dbabff87a, type: 2}
+    second: {fileID: 2100000, guid: c30f955edc924f54b8af476dc8bb735e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: others
-    second: {fileID: 2100000, guid: dd7a4dbf7f006d84f85ac8a7e32c0eaa, type: 2}
+    second: {fileID: 2100000, guid: ce5666dbb72a03e45a14b33a932d10f7, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: sprinkle
-    second: {fileID: 2100000, guid: c176a3ac281059845bf0461371be5875, type: 2}
+    second: {fileID: 2100000, guid: 8a09e36b05ce0314bbf18c5d760ca9eb, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: High_low_Low_AlbedoTransparency
-    second: {fileID: 2800000, guid: 25e50bd26ca019349b31b291225c5db3, type: 3}
+    second: {fileID: 2800000, guid: 30f4e52e9c7c174408f343ef6f808f89, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: High_low_Low_MetallicSmoothness
-    second: {fileID: 2800000, guid: c62cccef76c29c64a8ce8a4c10b6871d, type: 3}
+    second: {fileID: 2800000, guid: c29f58cbe53045949b7f5323cbb297a9, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: High_low_Low_Normal
-    second: {fileID: 2800000, guid: 959e0584786b91740bef96680fab18c9, type: 3}
+    second: {fileID: 2800000, guid: dadd83903a1b7c748a7db00f83e47ccb, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Material.005_BaseColor
-    second: {fileID: 2800000, guid: 7faa941c7301e4446b7a3540a735de87, type: 3}
+    second: {fileID: 2800000, guid: 3df7ca8ee62757e4da638cb7f00e2abb, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Material.005_Metallic
-    second: {fileID: 2800000, guid: 61f7715c2e37e5042967791ab53f0bc9, type: 3}
+    second: {fileID: 2800000, guid: 4700fdd2bd663c74c9fed5d298dc300d, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Material.005_Normal
-    second: {fileID: 2800000, guid: 231efcc8ee42ae04ab5576e28b430c6f, type: 3}
+    second: {fileID: 2800000, guid: a42931fb085148e4084c936c25c234be, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Material.005_Roughness
-    second: {fileID: 2800000, guid: 4521e11d99c65674383ec06b797ef231, type: 3}
+    second: {fileID: 2800000, guid: ec5b4fc4b9b8cd84ab8c778b2fa44fc1, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: berry_low____mountain_Emission
-    second: {fileID: 2800000, guid: c684f54a8adcb1341952a5acb98d68af, type: 3}
+    second: {fileID: 2800000, guid: ac867ccdf2652b9469fbd8e5938153f9, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: berry_low____mountain_MetallicSmoothness
-    second: {fileID: 2800000, guid: d32ba4510a29c2546a0dc9c96bf248f3, type: 3}
+    second: {fileID: 2800000, guid: 0a60457b17e965947a5e06832d04ae0f, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: berry_low____mountain_Normal
-    second: {fileID: 2800000, guid: 651a5c8bcfe312941983535acf6e0e1c, type: 3}
+    second: {fileID: 2800000, guid: 44b9604ace8ffb94589885bba36c6361, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: choco_Fluid_Fluid - Chocolate Brown.003_AlbedoTransparency
-    second: {fileID: 2800000, guid: e06c4639beff83442a3bdb1ec2b10df1, type: 3}
+    second: {fileID: 2800000, guid: 849129a751c8dec4cbb510ce027893c5, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: choco_Fluid_Fluid - Chocolate Brown.003_MetallicSmoothness
-    second: {fileID: 2800000, guid: dfb6b2b0a2e7a1343add841d4aaf211f, type: 3}
+    second: {fileID: 2800000, guid: 0d81ecbab87a76a488063959b318d607, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: choco_Fluid_Fluid - Chocolate Brown.003_Normal
-    second: {fileID: 2800000, guid: 91bd58020b906524f9c280d42449eff4, type: 3}
+    second: {fileID: 2800000, guid: ed47e9b394ec8e548bc56666e937d8b6, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: mountain.002_BaseColor
-    second: {fileID: 2800000, guid: b352bdda4d3b95d4f89276a9ee3cb7a9, type: 3}
+    second: {fileID: 2800000, guid: 1c407919893e53347b95862f87180a12, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: others_Material.025_AlbedoTransparency
-    second: {fileID: 2800000, guid: 6ad6f475b2378df44913b6dc16427d1f, type: 3}
+    second: {fileID: 2800000, guid: 75d7d18f5c4decc478cf17f186778080, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: others_Material.025_MetallicSmoothness
-    second: {fileID: 2800000, guid: b5814870003736247a1ff45205a081a9, type: 3}
+    second: {fileID: 2800000, guid: 3d0a9c50f39935d47bdb036c68af2dde, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: others_Material.025_Normal
-    second: {fileID: 2800000, guid: 135340e700632844a805059dd0a652d4, type: 3}
+    second: {fileID: 2800000, guid: e896bba9cc9167b4fb3675764fa4b2c5, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -144,7 +144,36 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Scene
+      takeName: Scene
+      internalID: -623603649343465320
+      firstFrame: 1
+      lastFrame: 192
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
     isReadable: 0
   meshes:
     lODScreenPercentages: []
