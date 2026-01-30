@@ -3,222 +3,7 @@ guid: e59d049fd6049034ead75def0d085743
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Ice_1
-    second: {fileID: 2100000, guid: 188252cfe348a564eab13463b62a3871, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Icecreamhouse_1.039
-    second: {fileID: 2100000, guid: 5a2740637095d754eac31ee542623662, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Last_1
-    second: {fileID: 2100000, guid: ddb3a9e089d32704faa9a37ad753c575, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Second_1
-    second: {fileID: 2100000, guid: afdb9d578e0e16a41a0a4208678e562b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Turnel_1
-    second: {fileID: 2100000, guid: cb0e476f9c253ae47812297d532e4efc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Turnel_1.008
-    second: {fileID: 2100000, guid: 4c6ff7f3316d20549b40c486d71895c7, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Turnel_1.009
-    second: {fileID: 2100000, guid: 0ef7f827a3f3d9240865da8ebc412114, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Turnel_1.010
-    second: {fileID: 2100000, guid: 991a7ae60b8dde54b98953f4f7da76f8, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Turnel_1.011
-    second: {fileID: 2100000, guid: ed2e788a1d83c84459b1e006677cbbda, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Turnel_1.015
-    second: {fileID: 2100000, guid: aa564e090850f00478de31d7c15261f2, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Turnel_1.018
-    second: {fileID: 2100000, guid: 447f2c582eaed4e4babb95258dccaf3e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: chocoBridge_Mat.001
-    second: {fileID: 2100000, guid: cb60c1e7db6c4294a88983dfab7106ca, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: chocoBridge_Mat.006
-    second: {fileID: 2100000, guid: 8a0b3c8b8a5a2ae469e4846c5d937151, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: chocoBridge_Mat.007
-    second: {fileID: 2100000, guid: 624053617550d3e40a46b9b19eef6526, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: kettle_1
-    second: {fileID: 2100000, guid: 12686da58a43ce843954ab8a1d10d819, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: kettle_1.016
-    second: {fileID: 2100000, guid: f0d266c033d59de4f9f1825299cc9609, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: kettle_1.077
-    second: {fileID: 2100000, guid: c32009310b92b014abbde9444eed9eef, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: kettle_1.081
-    second: {fileID: 2100000, guid: df76c3e8bd57dc9428e728b0dcdb0b35, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Icecreamhouse_1_Alpha
-    second: {fileID: 2800000, guid: 07450c87f78c2f34ebdeb0eecac1cb39, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Icecreamhouse_1_BaseColor
-    second: {fileID: 2800000, guid: f1ecb6685ec4b174083a0376e95fcc47, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Icecreamhouse_1_Emission
-    second: {fileID: 2800000, guid: bf5f082887cd79f42b59441f0b562438, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Icecreamhouse_1_Metallic
-    second: {fileID: 2800000, guid: 6deb8bcd4ba4d2b41b4ac9e8850d6278, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Icecreamhouse_1_Normal
-    second: {fileID: 2800000, guid: dd4145cbcc43cd5498fdb5523d9db837, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Icecreamhouse_1_Roughness
-    second: {fileID: 2800000, guid: 7e84178a131bf2441b7ebdfd28a5c114, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Kettle_new_kettle_1_BaseColor
-    second: {fileID: 2800000, guid: 525867d1c3c416f48ab67390a819bf39, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Kettle_new_kettle_1_Emissive
-    second: {fileID: 2800000, guid: 0e6d7bfbb7abf534d9cc9ddce3dbca01, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Kettle_new_kettle_1_Metallic
-    second: {fileID: 2800000, guid: f1bc9c539a24d9f4ba2a8eeec2c37ce2, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Kettle_new_kettle_1_Normal
-    second: {fileID: 2800000, guid: 689718d70ca9d284489a206dda4bd1f5, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Kettle_new_kettle_1_Roughness
-    second: {fileID: 2800000, guid: 0ac8351fe7e79bf4083f2635633e7723, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Last_1_Alpha
-    second: {fileID: 2800000, guid: 414eeff39b19a14469e8bbdee3e45fe1, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Last_1_BaseColor
-    second: {fileID: 2800000, guid: e524eace9891c54468a6a09a28ff8b5b, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Last_1_Emission
-    second: {fileID: 2800000, guid: 6799a42f90b432e40935cad57fab30c7, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Last_1_Metallic
-    second: {fileID: 2800000, guid: 4ba14f71a8349514eaac48c88c21ea67, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Last_1_Normal
-    second: {fileID: 2800000, guid: acfb2cdbfd1942b4baacab76d4f6f49b, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Last_1_Roughness
-    second: {fileID: 2800000, guid: f73faabde5b01884fbfd5f723f08aae6, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Secondhouse_1_Second_1_AlbedoTransparency
-    second: {fileID: 2800000, guid: adee6c0b17df29741bd285c1fe7b9a37, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Secondhouse_1_Second_1_Emission
-    second: {fileID: 2800000, guid: e21530de5a68480459293f8bd40d9838, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Secondhouse_1_Second_1_MetallicSmoothness
-    second: {fileID: 2800000, guid: caa2926bc69e49a4a93a9c6dfb9df170, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Secondhouse_1_Second_1_Normal
-    second: {fileID: 2800000, guid: 9209e0cf027e6ef49933e5d5044cfee3, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Turnel_1_Turnel_1_AlbedoTransparency
-    second: {fileID: 2800000, guid: d10ee8c9199c0af47b5725183e784494, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Turnel_1_Turnel_1_Emission
-    second: {fileID: 2800000, guid: 0ac0d253f2d11c1429c8d70644f78594, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Turnel_1_Turnel_1_MetallicSmoothness
-    second: {fileID: 2800000, guid: fc0ed91dfa1dbfc40ae242f179e5270e, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Turnel_1_Turnel_1_Normal
-    second: {fileID: 2800000, guid: 49209ad50bd736e43a143906e2121daa, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -244,7 +29,36 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Scene
+      takeName: Scene
+      internalID: -623603649343465320
+      firstFrame: 1
+      lastFrame: 768
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
     isReadable: 0
   meshes:
     lODScreenPercentages: []
