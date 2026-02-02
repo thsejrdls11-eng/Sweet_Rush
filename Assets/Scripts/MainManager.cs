@@ -4,7 +4,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Unity.Cinemachine;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 using UnityEngine.SceneManagement;
 using UnityStandardAssets.Utility;
 using UnityStandardAssets.Vehicles.Car;
@@ -12,7 +14,8 @@ namespace Game
 {
     public class MainManager : MonoBehaviour
     {
-        public CameraController cam;
+        //public CameraController cam;
+        public CinemachineCamera cam;
         public UIManager uiManager;
         public WaypointCircuit waypointCircuit;
         public static MainManager instance;
@@ -41,7 +44,7 @@ namespace Game
                 if (i == selectIndex)
                 {
                     carList[i].SetActive(true);
-                    cam.targetTransform = carList[i].transform;
+                    cam.Target.TrackingTarget = carList[i].transform;
                     player = carList[i].GetComponent<CheckManager>();
                 }
                 else carList[i].SetActive(false);
