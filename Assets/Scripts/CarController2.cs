@@ -10,7 +10,7 @@ public class CarController2 : MonoBehaviour
     public float powerMultiplier = 1;
     public float maxSteer = 30, wheelbase = 2.5f, trackwidth = 1.5f;
     public float breakPower=1;
-    public float maxSpd = 70;
+    float maxSpd = 80;
 
     public void OnMove(InputAction.CallbackContext ctx) // 이동 메서드(입력 들어가면 실행)
     {
@@ -29,7 +29,7 @@ public class CarController2 : MonoBehaviour
         float speed = wheels[0].collider.attachedRigidbody.linearVelocity.magnitude * 3.6f;
         float motor = moveInput.y * powerMultiplier;
         // 3. 속도 제한 (80km/h 초과 시 전진 토크 차단)
-        if (speed > 80f && moveInput.y > 0)
+        if (speed > maxSpd && moveInput.y > 0)
         {
             motor = 0;
         }
