@@ -10,7 +10,7 @@ public class CarController2 : MonoBehaviour
     public float powerMultiplier = 1;
     public float maxSteer = 30, wheelbase = 2.5f, trackwidth = 1.5f;
     public float breakPower=1;
-    float maxSpd = 80;
+    public float maxSpd = 80;
 
     public void OnMove(InputAction.CallbackContext ctx) // 이동 메서드(입력 들어가면 실행)
     {

@@ -9244,7 +9244,7 @@ MonoBehaviour:
   wheelbase: 2.5
   trackwidth: 1.5
   breakPower: 1
-  maxSpd: 70
+  maxSpd: 80
 --- !u!54 &604241888
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12239,7 +12239,7 @@ MonoBehaviour:
   wheelbase: 2.5
   trackwidth: 1.5
   breakPower: 1
-  maxSpd: 70
+  maxSpd: 80
 --- !u!54 &783660112
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17050,7 +17050,7 @@ MonoBehaviour:
       Enabled: 0
       Size: {x: 0.8, y: 0.8}
       Offset: {x: 0, y: 0}
-  CenterOnActivate: 1
+  CenterOnActivate: 0
   TargetOffset: {x: 0, y: -2.91, z: 0}
   Damping: {x: 0.5, y: 0.5}
   Lookahead:
@@ -32657,7 +32657,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 258603895}
   m_HandleRect: {fileID: 258603894}
   m_Direction: 0
-  m_Value: 1
+  m_Value: 0
   m_Size: 0.99999994
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -35316,7 +35316,7 @@ MonoBehaviour:
   wheelbase: 2.5
   trackwidth: 1.5
   breakPower: 1
-  maxSpd: 70
+  maxSpd: 80
 --- !u!114 &919132147908859301
 MonoBehaviour:
   m_ObjectHideFlags: 0
