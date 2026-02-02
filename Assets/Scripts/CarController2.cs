@@ -24,9 +24,14 @@ public class CarController2 : MonoBehaviour
     void FixedUpdate()
     {
         if (!MainManager.instance.isStart) return;
+
+        float motor = moveInput.y * powerMultiplier;
+        // 입력이 없을 때(중립 상태) 차가 미끄러지지 않도록 브레이크 부여
+        float currentBrake = (moveInput.y == 0) ? (powerMultiplier * 0.5f) : 0;
         foreach (var wheel in wheels)  //각 바퀴의 휠콜라이더의 모터토크를 OnMove로 받아온 위아래값 * power만큼 돌림 
         {
-            wheel.collider.motorTorque = moveInput.y * powerMultiplier* breakPower;
+            wheel.collider.motorTorque = motor;
+            wheel.collider.brakeTorque = currentBrake;
         }
         float steer = moveInput.x * maxSteer;  //x는 -1~1의 범위이므로 maxSteer가 30이면 -30~30
         if (moveInput.x > 0)  //x가 좌우 입력이므로 0보다 크면 우회전, 작으면 좌회전
