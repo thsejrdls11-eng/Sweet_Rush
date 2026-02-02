@@ -2651,13 +2651,13 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.8
     m_AsymptoteValue: 0.5
-    m_Stiffness: 1
+    m_Stiffness: 2
   m_SidewaysFriction:
     m_ExtremumSlip: 0.2
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 1
+    m_Stiffness: 3
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -3625,13 +3625,13 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.8
     m_AsymptoteValue: 0.5
-    m_Stiffness: 1
+    m_Stiffness: 2
   m_SidewaysFriction:
     m_ExtremumSlip: 0.2
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 1
+    m_Stiffness: 3
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -9244,6 +9244,7 @@ MonoBehaviour:
   wheelbase: 2.5
   trackwidth: 1.5
   breakPower: 1
+  maxSpd: 70
 --- !u!54 &604241888
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9799,13 +9800,13 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.8
     m_AsymptoteValue: 0.5
-    m_Stiffness: 1
+    m_Stiffness: 2
   m_SidewaysFriction:
     m_ExtremumSlip: 0.2
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 1
+    m_Stiffness: 3
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -12238,6 +12239,7 @@ MonoBehaviour:
   wheelbase: 2.5
   trackwidth: 1.5
   breakPower: 1
+  maxSpd: 70
 --- !u!54 &783660112
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19219,8 +19221,8 @@ Rigidbody:
   serializedVersion: 5
   m_Mass: 1400
   m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_AngularDamping: 3
+  m_CenterOfMass: {x: 0, y: -1, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
   m_IncludeLayers:
@@ -19229,7 +19231,7 @@ Rigidbody:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_ImplicitCom: 1
+  m_ImplicitCom: 0
   m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -29538,13 +29540,13 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.8
     m_AsymptoteValue: 0.5
-    m_Stiffness: 1
+    m_Stiffness: 2
   m_SidewaysFriction:
     m_ExtremumSlip: 0.2
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 1
+    m_Stiffness: 3
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -35309,11 +35311,12 @@ MonoBehaviour:
   - collider: {fileID: 1895647012}
     wheelType: 1
   moveInput: {x: 0, y: 0}
-  powerMultiplier: 300
-  maxSteer: 30
+  powerMultiplier: 3000
+  maxSteer: 10
   wheelbase: 2.5
   trackwidth: 1.5
   breakPower: 1
+  maxSpd: 70
 --- !u!114 &919132147908859301
 MonoBehaviour:
   m_ObjectHideFlags: 0

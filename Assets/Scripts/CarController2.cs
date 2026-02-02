@@ -10,6 +10,7 @@ public class CarController2 : MonoBehaviour
     public float powerMultiplier = 1;
     public float maxSteer = 30, wheelbase = 2.5f, trackwidth = 1.5f;
     public float breakPower=1;
+    public float maxSpd = 70;
 
     public void OnMove(InputAction.CallbackContext ctx) // 이동 메서드(입력 들어가면 실행)
     {
@@ -27,13 +28,20 @@ public class CarController2 : MonoBehaviour
 
         float motor = moveInput.y * powerMultiplier;
         // 입력이 없을 때(중립 상태) 차가 미끄러지지 않도록 브레이크 부여
-        float currentBrake = (moveInput.y == 0) ? (powerMultiplier * 0.5f) : 0;
+        float currentBrake = (moveInput.y == 0) || (breakPower == 0) ? (powerMultiplier * 0.5f) : 0;
         foreach (var wheel in wheels)  //각 바퀴의 휠콜라이더의 모터토크를 OnMove로 받아온 위아래값 * power만큼 돌림 
         {
-            wheel.collider.motorTorque = motor;
+            wheel.collider.motorTorque = motor * breakPower;
             wheel.collider.brakeTorque = currentBrake;
         }
-        float steer = moveInput.x * maxSteer;  //x는 -1~1의 범위이므로 maxSteer가 30이면 -30~30
+        // 현재 속도 (km/h 단위로 변환)
+        float speed = wheels[0].collider.attachedRigidbody.linearVelocity.magnitude * 3.6f;
+        speed = Mathf.Clamp(speed, 0, maxSpd);
+        print("spd: " + speed);
+        // 속도가 높아질수록 maxSteer를 줄임 (예: 100km/h일 때 약 10도까지 감소)
+        float dynamicSteer = Mathf.Lerp(maxSteer, 10f, speed / 80f);
+
+        float steer = moveInput.x * dynamicSteer;
         if (moveInput.x > 0)  //x가 좌우 입력이므로 0보다 크면 우회전, 작으면 좌회전
         {
             wheels[0].collider.steerAngle = Mathf.Rad2Deg * Mathf.Atan(wheelbase / (trackwidth / 2 + Mathf.Tan(Mathf.Deg2Rad * steer) * wheelbase));
