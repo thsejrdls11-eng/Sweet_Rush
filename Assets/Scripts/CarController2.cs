@@ -62,10 +62,8 @@ public class CarController2 : MonoBehaviour
                     wheel.collider.brakeTorque = 100f; // 약한 저항
                 }
             }
-            print(wheel.collider.motorTorque);
         }
 
-        print("spd: " + speed);
         // 속도가 높아질수록 maxSteer를 줄임 (예: 100km/h일 때 약 10도까지 감소)
         float dynamicSteer = Mathf.Lerp(maxSteer, 10f, speed / 80f);
 
