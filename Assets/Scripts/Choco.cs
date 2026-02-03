@@ -6,7 +6,7 @@ public class Choco : MonoBehaviour
     [Range(0.5f, 1f)]
     public float slowMultiplier = 0.9999f;
 
-    // ✅ 진입 순간 속도가 0으로 잡히는 문제 방지용(프로젝트에 맞게 조절)
+    //  진입 순간 속도가 0으로 잡히는 문제 방지용(프로젝트에 맞게 조절)
     public float minBaseSpeed = 6f;
 
     private readonly Dictionary<Rigidbody, float> baseMaxSpeedXZ = new Dictionary<Rigidbody, float>();
@@ -25,7 +25,7 @@ public class Choco : MonoBehaviour
         Vector3 v = rb.linearVelocity;
         float xzSpeed = new Vector3(v.x, 0f, v.z).magnitude;
 
-        // ✅ 최소 기준 보장
+        //  최소 기준 보장
         xzSpeed = Mathf.Max(xzSpeed, minBaseSpeed);
 
         if (!baseMaxSpeedXZ.ContainsKey(rb))
@@ -44,7 +44,7 @@ public class Choco : MonoBehaviour
         Vector3 v = rb.linearVelocity;
         float currentXZ = new Vector3(v.x, 0f, v.z).magnitude;
 
-        // ✅ “진입 순간 0 저장”을 이후 프레임에서 자동 보정
+        //  “진입 순간 0 저장”을 이후 프레임에서 자동 보정
         baseMax = Mathf.Max(baseMax, currentXZ, minBaseSpeed);
         baseMaxSpeedXZ[rb] = baseMax;
 
