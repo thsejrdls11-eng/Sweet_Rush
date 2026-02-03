@@ -27,15 +27,19 @@ public class CarController2 : MonoBehaviour
         if (!MainManager.instance.isStart) return;
         // 현재 속도 (km/h 단위로 변환)
         float speed = wheels[0].collider.attachedRigidbody.linearVelocity.magnitude * 3.6f;
-        float motor = moveInput.y * powerMultiplier;
+        float motor;
         // 3. 속도 제한 (80km/h 초과 시 전진 토크 차단)
         if (speed > maxSpd && moveInput.y > 0)
         {
             motor = 0;
         }
+        else
+        {
+            motor = moveInput.y * powerMultiplier;
+        }
 
-        // 입력이 없을 때(중립 상태) 차가 미끄러지지 않도록 브레이크 부여
-        float currentBrake = (moveInput.y == 0) || (breakPower == 0) ? (powerMultiplier * 0.5f) : 0;
+            // 입력이 없을 때(중립 상태) 차가 미끄러지지 않도록 브레이크 부여
+            float currentBrake = (moveInput.y == 0) || (breakPower == 0) ? (powerMultiplier * 0.5f) : 0;
         foreach (var wheel in wheels)  //각 바퀴의 휠콜라이더의 모터토크를 OnMove로 받아온 위아래값 * power만큼 돌림 
         {
             if (breakPower == 0)
@@ -51,13 +55,14 @@ public class CarController2 : MonoBehaviour
             {
                 wheel.collider.brakeTorque = 0;
                 wheel.collider.motorTorque = motor;
-
+                
                 // 엑셀도 떼고 브레이크도 안 밟은 상태(중립)에서 흐르는 것 방지 (선택 사항)
                 if (moveInput.y == 0)
                 {
                     wheel.collider.brakeTorque = 100f; // 약한 저항
                 }
             }
+            print(wheel.collider.motorTorque);
         }
 
         print("spd: " + speed);
