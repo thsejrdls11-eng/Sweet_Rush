@@ -2409,9 +2409,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 921679246}
   - {fileID: 1010250222}
   - {fileID: 1097195481}
-  - {fileID: 921679246}
   - {fileID: 1807766710}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2458,9 +2458,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectManager
   carList:
+  - {fileID: 921679245}
   - {fileID: 1010250221}
   - {fileID: 1097195480}
-  - {fileID: 921679245}
   - {fileID: 1807766709}
   selectIndex: 0
 --- !u!4 &1727766873
