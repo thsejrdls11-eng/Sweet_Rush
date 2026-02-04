@@ -3,7 +3,132 @@ guid: 619a8050fad532f46b41a6840ab76d91
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: asset-1
+    second: {fileID: 2100000, guid: eef69b8885f196b40896612dd6dbfbf8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: base - 3
+    second: {fileID: 2100000, guid: d76377c0b0d3f4e409b97f716be0490d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: base-1
+    second: {fileID: 2100000, guid: 15defca23f586da45a046e6328cec8f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: base-2
+    second: {fileID: 2100000, guid: 4c3d6abf560b0324698b336b1cfbaac3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lemon
+    second: {fileID: 2100000, guid: 0a51d99d4fcbf6349b9a19bb40a9329b, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: car - 2_asset-1_AlbedoTransparency
+    second: {fileID: 2800000, guid: 9410aa6909fa49040b01495a0e4955de, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: car - 2_asset-1_Emission
+    second: {fileID: 2800000, guid: 637c504a839268442ad4a2f8db20a539, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: car - 2_asset-1_MetallicSmoothness
+    second: {fileID: 2800000, guid: cd901ff66e35d0046be4a1e57f21f383, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: car - 2_asset-1_Normal
+    second: {fileID: 2800000, guid: 092c8ef71b61e7f47896bb72cffe171a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: car - 2_base - 3_AlbedoTransparency
+    second: {fileID: 2800000, guid: 189cd5a33b3d6b94db03b6a3b23b6705, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: car - 2_base - 3_Emission
+    second: {fileID: 2800000, guid: 1ccc7cf5aa75c9f48a19740d71f61072, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: car - 2_base - 3_MetallicSmoothness
+    second: {fileID: 2800000, guid: c3c752d9c37c8144d8b308ddaebf520b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: car - 2_base - 3_Normal
+    second: {fileID: 2800000, guid: 922cd948a7684264995ce4555cb7d988, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: car - 2_base-1_AlbedoTransparency
+    second: {fileID: 2800000, guid: 4c3dfffda7c92f347926b44504e910c9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: car - 2_base-1_Emission
+    second: {fileID: 2800000, guid: 7fde2f47e4e5a9444be1571dfb2d8499, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: car - 2_base-1_MetallicSmoothness
+    second: {fileID: 2800000, guid: 7f3581f4f90045a4abe722b9ebed3adb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: car - 2_base-1_Normal
+    second: {fileID: 2800000, guid: e9b8682f56622944b85f8246f35f824b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: car - 2_base-2_AlbedoTransparency
+    second: {fileID: 2800000, guid: 7f4994c433c54ac4eaef6deee65c4f39, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: car - 2_base-2_Emission
+    second: {fileID: 2800000, guid: 261bd8ce23106714fa1f056730069e11, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: car - 2_base-2_MetallicSmoothness
+    second: {fileID: 2800000, guid: 98ddbe8e1101b774583d9293c6a66d67, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: car - 2_base-2_Normal
+    second: {fileID: 2800000, guid: 99812e3b2f66a0e49be08d90f99539e2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: car - 2_lemon_AlbedoTransparency
+    second: {fileID: 2800000, guid: 54dbc2a28b7c7dd498a686e3247aa4ea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: car - 2_lemon_Emission
+    second: {fileID: 2800000, guid: bd688a864a7d1f84db7e5b811f9ee9a9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: car - 2_lemon_MetallicSmoothness
+    second: {fileID: 2800000, guid: 496d722a99d733140adf51fe453a0ed2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: car - 2_lemon_Normal
+    second: {fileID: 2800000, guid: e4a3f1a284d5d0b4986def72abfe53b0, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

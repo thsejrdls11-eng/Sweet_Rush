@@ -3,7 +3,167 @@ guid: eaefe629334164246affd76c8bd2c4d2
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Car_Front
+    second: {fileID: 2100000, guid: 3b47e4db623b4ec47afb3eabba9d5e14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cart_Back
+    second: {fileID: 2100000, guid: 7bedb63a8cf8dcd45b39f0721c27260c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cart_Side
+    second: {fileID: 2100000, guid: ed083eb89ceff7245b301c3f26c1dcf7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cart_Under
+    second: {fileID: 2100000, guid: 71518856a2fdc674a9565378590fc991, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cart_Wing
+    second: {fileID: 2100000, guid: f1cea022b50684648846770cdd1073ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cart_wheel
+    second: {fileID: 2100000, guid: a9378ee3fd8bfac4f99e27d7785b34ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Emisiion2
+    second: {fileID: 2100000, guid: ef8f1bb68c18a374cb554584bca62890, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Emission
+    second: {fileID: 2100000, guid: 929faacc504cc864bbf54eda6f2997aa, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Car_Front_BaseColor
+    second: {fileID: 2800000, guid: 7162b73cbcdad1f49bfd5642bbbc9eed, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Car_Front_Metallic
+    second: {fileID: 2800000, guid: f8566173cdac8d14491fe50bc9c99517, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Car_Front_Normal
+    second: {fileID: 2800000, guid: 75bd5a663e900a14d953740ab9d64279, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Car_Front_Roughness
+    second: {fileID: 2800000, guid: 0a2b200875f6fec4584da7e7dfae2dc5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cart_Back_BaseColor
+    second: {fileID: 2800000, guid: 07c514dac2ab6b049b560d2171aa88de, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cart_Back_Metallic
+    second: {fileID: 2800000, guid: 67eddce98fda442498249fe4cf90431a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cart_Back_Normal
+    second: {fileID: 2800000, guid: 4d9c7c827d8a2154aac53e87c44b8f79, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cart_Back_Roughness
+    second: {fileID: 2800000, guid: bd457ed129b9dca4686e931915e398ab, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cart_Side_BaseColor
+    second: {fileID: 2800000, guid: 2d1c7564ad2bf5c46a3667efdd05563c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cart_Side_Metallic
+    second: {fileID: 2800000, guid: 2835139ba50c0de42b8279da83da5e86, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cart_Side_Normal
+    second: {fileID: 2800000, guid: 92ad2057f3a78ee4ea789aae905c93f1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cart_Side_Roughness
+    second: {fileID: 2800000, guid: 981c1019f203ae942a97e7fd77061a8a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cart_Under_BaseColor
+    second: {fileID: 2800000, guid: 92af0341c4ddfea4887e5c7685b3d4a6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cart_Under_Metallic
+    second: {fileID: 2800000, guid: 3f92459e4eadf534a81018e7e11e672c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cart_Under_Normal
+    second: {fileID: 2800000, guid: b4ae58c2eb0165a45904bbf57dd4d8f1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cart_Under_Roughness
+    second: {fileID: 2800000, guid: 8553fce35f711d646a80b0611a59351d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cart_Wing_BaseColor
+    second: {fileID: 2800000, guid: 33291ccc363af534986e9952e6a55415, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cart_Wing_Metallic
+    second: {fileID: 2800000, guid: ab71ba698825c954c9afe757e791571c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cart_Wing_Normal
+    second: {fileID: 2800000, guid: 348ad54f176c75e41a181967dba2ad1f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cart_Wing_Roughness
+    second: {fileID: 2800000, guid: f4ee018150837054aa791919e8af6e18, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cart_wheel_BaseColor
+    second: {fileID: 2800000, guid: 47b6dc94d9087704ab7dbc7ff71d2a87, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cart_wheel_Metallic
+    second: {fileID: 2800000, guid: 19aeb28ea9101f144a7114404eec840e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cart_wheel_Normal
+    second: {fileID: 2800000, guid: efbdcc19416ed894b9341a481fc80362, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cart_wheel_Roughness
+    second: {fileID: 2800000, guid: 70ed1bbd172b800418a326710896805e, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

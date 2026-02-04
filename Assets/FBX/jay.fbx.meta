@@ -3,7 +3,182 @@ guid: bd92d0488083d0b44b0a619accfa4dcf
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frame_Car
+    second: {fileID: 2100000, guid: b1edc4684c038304e8d6726238901c85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_02
+    second: {fileID: 2100000, guid: 450752c455f378249a019d74345fdce7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_03.001
+    second: {fileID: 2100000, guid: ed927a7ac0bf56d47968676202f51729, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_04
+    second: {fileID: 2100000, guid: bab5d63356498cb4a9c1764c2cd58b7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 919176fb1dcf048499ff9b8ff5c0aada, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DefaultMaterial_Alpha
+    second: {fileID: 2800000, guid: f53e2d6dcb7711c4797b77047381a89c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DefaultMaterial_BaseColor
+    second: {fileID: 2800000, guid: d6aa091189bb24249a7d2a13ca35b604, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DefaultMaterial_Emission
+    second: {fileID: 2800000, guid: b57f2452ccdaca4479bd70da862be6a1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DefaultMaterial_Metallic
+    second: {fileID: 2800000, guid: e016d986ba68d1341b4937371dc706c9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DefaultMaterial_Normal
+    second: {fileID: 2800000, guid: 21e0af9abf9545940a7a0d69cb0b8d2b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DefaultMaterial_Roughness
+    second: {fileID: 2800000, guid: e6ff410001136194f83450ea0cbe9243, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Frame_Car_Alpha
+    second: {fileID: 2800000, guid: 3028d7c88980db24c810ef6d297c2e6f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Frame_Car_BaseColor
+    second: {fileID: 2800000, guid: 50d2a767f95d19543a9bd45b09e16dc0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Frame_Car_Emission
+    second: {fileID: 2800000, guid: 0c79f3a68d894db4e979016ceae0fc99, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Frame_Car_Metallic
+    second: {fileID: 2800000, guid: 3fddc27503fd8d244ba0e99b79fb7146, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Frame_Car_Normal
+    second: {fileID: 2800000, guid: b957b41b28fda5046a0e6a6621f3a804, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Frame_Car_Roughness
+    second: {fileID: 2800000, guid: 09042301da2f33a4f950ee4815cd2ff0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mat_02_Alpha
+    second: {fileID: 2800000, guid: af4765480e4ef3049aa27a6fd6faa0eb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mat_02_BaseColor
+    second: {fileID: 2800000, guid: 0104e17c4d2769e4b9e6a9236b5fbc3d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mat_02_Emission
+    second: {fileID: 2800000, guid: 8224d00245e05db4faaa461e89545522, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mat_02_Metallic
+    second: {fileID: 2800000, guid: 69353114b592ad649b7bc43c443e18b0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mat_02_Normal
+    second: {fileID: 2800000, guid: f4a3979f3f504204c873017d0becc393, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mat_02_Roughness
+    second: {fileID: 2800000, guid: db18b3d2c37024b42b0188250e8f416a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mat_03_Alpha
+    second: {fileID: 2800000, guid: 92f7cc66eee8deb48a42d0c82773a24e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mat_03_BaseColor
+    second: {fileID: 2800000, guid: 262b1e736bd6bf44cbe34b48046990db, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mat_03_Emission
+    second: {fileID: 2800000, guid: aa9ffc8c76e8c154e8bc84ed02953957, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mat_03_Metallic
+    second: {fileID: 2800000, guid: 2edae7f9b2569bd44a1f31cf2b08cee2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mat_03_Normal
+    second: {fileID: 2800000, guid: dbae4a8804176d44abc9c8d127311762, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mat_03_Roughness
+    second: {fileID: 2800000, guid: bafe17cd78f3d73478eb24456c54e18b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mat_04_Alpha
+    second: {fileID: 2800000, guid: 2758dc351ddf1244ea664881b9b8aeec, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mat_04_BaseColor
+    second: {fileID: 2800000, guid: 7994e0c7f24e51145ae865e9fdbf1b89, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mat_04_Emission
+    second: {fileID: 2800000, guid: d96068aa436be094db465b21ea795c17, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mat_04_Metallic
+    second: {fileID: 2800000, guid: dd14857975a62564c9c0dc51ae9e5a0f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mat_04_Normal
+    second: {fileID: 2800000, guid: 93b79230eac0fae4d92d03130bd99b47, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mat_04_Roughness
+    second: {fileID: 2800000, guid: c34e442d5162de5408ff80f1ca3172a5, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
