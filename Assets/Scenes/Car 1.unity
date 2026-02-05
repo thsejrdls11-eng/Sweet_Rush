@@ -976,6 +976,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9.5, y: 8.04, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &38725704 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1410642611008691214, guid: 11e4ecde11d48074fa7baea6d32eddd9, type: 3}
+  m_PrefabInstance: {fileID: 1646332946}
+  m_PrefabAsset: {fileID: 0}
 --- !u!64 &39720040
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2575,6 +2580,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 91608638}
   m_Mesh: {fileID: -3849098013122800504, guid: b93cf2f2bd7914941a2413d02889c5af, type: 3}
+--- !u!1 &92169100 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8352179720492545318, guid: 11e4ecde11d48074fa7baea6d32eddd9, type: 3}
+  m_PrefabInstance: {fileID: 1646332946}
+  m_PrefabAsset: {fileID: 0}
 --- !u!64 &94725212
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5057,6 +5067,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 991020302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &307713412 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5054343402201227046, guid: 11e4ecde11d48074fa7baea6d32eddd9, type: 3}
+  m_PrefabInstance: {fileID: 1646332946}
+  m_PrefabAsset: {fileID: 0}
 --- !u!64 &309979577
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5914,6 +5929,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4958226066170557399, guid: a6e5cb05f07138748934e86a1f9fd95d, type: 3}
+--- !u!146 &363677332 stripped
+WheelCollider:
+  m_CorrespondingSourceObject: {fileID: 4184335793061289770, guid: 11e4ecde11d48074fa7baea6d32eddd9, type: 3}
+  m_PrefabInstance: {fileID: 1646332946}
+  m_PrefabAsset: {fileID: 0}
 --- !u!64 &363820936
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8099,6 +8119,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.851047, y: 0.61, z: 3.8256042}
   m_Center: {x: -0.0000743866, y: -0, z: 0.12116063}
+--- !u!146 &484492478 stripped
+WheelCollider:
+  m_CorrespondingSourceObject: {fileID: 510451629010616255, guid: 6ced9f8ad4110454ab9801a5a63bb2b0, type: 3}
+  m_PrefabInstance: {fileID: 827485379}
+  m_PrefabAsset: {fileID: 0}
 --- !u!64 &485776894
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8321,6 +8346,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -685487281514288903, guid: a6e5cb05f07138748934e86a1f9fd95d, type: 3}
+--- !u!146 &494829169 stripped
+WheelCollider:
+  m_CorrespondingSourceObject: {fileID: 3135479157603603118, guid: 6ced9f8ad4110454ab9801a5a63bb2b0, type: 3}
+  m_PrefabInstance: {fileID: 827485379}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &494907690
 GameObject:
   m_ObjectHideFlags: 0
@@ -13529,15 +13559,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp-firstpass::UnityStandardAssets.Vehicles.Car.CarController
   m_CarDriveType: 2
   m_WheelColliders:
-  - {fileID: 1203638617}
-  - {fileID: 776541514}
-  - {fileID: 1659250296}
-  - {fileID: 342938262}
+  - {fileID: 484492478}
+  - {fileID: 494829169}
+  - {fileID: 1314223388}
+  - {fileID: 2030774864}
   m_WheelMeshes:
-  - {fileID: 1025687419}
-  - {fileID: 775110017}
-  - {fileID: 1668086437}
-  - {fileID: 1545604987}
+  - {fileID: 2143495646}
+  - {fileID: 1436779886}
+  - {fileID: 1753435062}
+  - {fileID: 1698178043}
   m_CentreOfMassOffset: {x: 0, y: -1, z: 0}
   m_MaximumSteerAngle: 60
   m_SteerHelper: 0.774
@@ -16780,6 +16810,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2138350093899475326, guid: 54304b563ace2c64db7e96a07200a5e1, type: 3}
   m_PrefabInstance: {fileID: 1143989710}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1026089018 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3123161926498743491, guid: 11e4ecde11d48074fa7baea6d32eddd9, type: 3}
+  m_PrefabInstance: {fileID: 1646332946}
+  m_PrefabAsset: {fileID: 0}
 --- !u!64 &1034654504
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18524,6 +18559,11 @@ WheelCollider:
   m_LayerOverridePriority: 0
   m_Enabled: 1
   m_ProvidesContacts: 0
+--- !u!146 &1159043743 stripped
+WheelCollider:
+  m_CorrespondingSourceObject: {fileID: 6606560883174494461, guid: 11e4ecde11d48074fa7baea6d32eddd9, type: 3}
+  m_PrefabInstance: {fileID: 1646332946}
+  m_PrefabAsset: {fileID: 0}
 --- !u!64 &1163078084
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18546,6 +18586,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2865104911859505335, guid: e59d049fd6049034ead75def0d085743, type: 3}
+--- !u!146 &1163212739 stripped
+WheelCollider:
+  m_CorrespondingSourceObject: {fileID: 8169185743852368238, guid: 11e4ecde11d48074fa7baea6d32eddd9, type: 3}
+  m_PrefabInstance: {fileID: 1646332946}
+  m_PrefabAsset: {fileID: 0}
 --- !u!64 &1165371151
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20929,6 +20974,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1313964191}
   m_Mesh: {fileID: -7321153232407316030, guid: b93cf2f2bd7914941a2413d02889c5af, type: 3}
+--- !u!146 &1314223388 stripped
+WheelCollider:
+  m_CorrespondingSourceObject: {fileID: 6885504697637569764, guid: 6ced9f8ad4110454ab9801a5a63bb2b0, type: 3}
+  m_PrefabInstance: {fileID: 827485379}
+  m_PrefabAsset: {fileID: 0}
 --- !u!64 &1317441466
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23280,6 +23330,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1244776425715413010, guid: a6e5cb05f07138748934e86a1f9fd95d, type: 3}
+--- !u!1 &1436779886 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1681555282214163927, guid: 6ced9f8ad4110454ab9801a5a63bb2b0, type: 3}
+  m_PrefabInstance: {fileID: 827485379}
+  m_PrefabAsset: {fileID: 0}
 --- !u!64 &1437272196
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26349,15 +26404,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp-firstpass::UnityStandardAssets.Vehicles.Car.CarController
   m_CarDriveType: 2
   m_WheelColliders:
-  - {fileID: 1203638617}
-  - {fileID: 776541514}
-  - {fileID: 1659250296}
-  - {fileID: 342938262}
+  - {fileID: 1159043743}
+  - {fileID: 2119205682}
+  - {fileID: 1163212739}
+  - {fileID: 363677332}
   m_WheelMeshes:
-  - {fileID: 1025687419}
-  - {fileID: 775110017}
-  - {fileID: 1668086437}
-  - {fileID: 1545604987}
+  - {fileID: 38725704}
+  - {fileID: 307713412}
+  - {fileID: 1026089018}
+  - {fileID: 92169100}
   m_CentreOfMassOffset: {x: 0, y: -1, z: 0}
   m_MaximumSteerAngle: 60
   m_SteerHelper: 0.774
@@ -27529,6 +27584,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1697424064}
   m_Mesh: {fileID: 6142405283766820523, guid: b93cf2f2bd7914941a2413d02889c5af, type: 3}
+--- !u!1 &1698178043 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4943199751244769841, guid: 6ced9f8ad4110454ab9801a5a63bb2b0, type: 3}
+  m_PrefabInstance: {fileID: 827485379}
+  m_PrefabAsset: {fileID: 0}
 --- !u!64 &1703590912
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28350,6 +28410,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1753059394}
   m_Mesh: {fileID: 3875485124431538172, guid: b93cf2f2bd7914941a2413d02889c5af, type: 3}
+--- !u!1 &1753435062 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5949590172593146975, guid: 6ced9f8ad4110454ab9801a5a63bb2b0, type: 3}
+  m_PrefabInstance: {fileID: 827485379}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1755921506
 GameObject:
   m_ObjectHideFlags: 0
@@ -32674,6 +32739,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4134439079388983382}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!146 &2030774864 stripped
+WheelCollider:
+  m_CorrespondingSourceObject: {fileID: 3309946963506946505, guid: 6ced9f8ad4110454ab9801a5a63bb2b0, type: 3}
+  m_PrefabInstance: {fileID: 827485379}
+  m_PrefabAsset: {fileID: 0}
 --- !u!64 &2031191683
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34399,6 +34469,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9.5, y: 8.04, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!146 &2119205682 stripped
+WheelCollider:
+  m_CorrespondingSourceObject: {fileID: 5643810507544919886, guid: 11e4ecde11d48074fa7baea6d32eddd9, type: 3}
+  m_PrefabInstance: {fileID: 1646332946}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2123049381
 GameObject:
   m_ObjectHideFlags: 0
@@ -34820,6 +34895,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5996928571294454664, guid: 3a5a4f24f8a3f98458fa221bf2b0184a, type: 3}
+--- !u!1 &2143495646 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 332966790171254032, guid: 6ced9f8ad4110454ab9801a5a63bb2b0, type: 3}
+  m_PrefabInstance: {fileID: 827485379}
+  m_PrefabAsset: {fileID: 0}
 --- !u!33 &8614573235188454
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -35699,7 +35779,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!23 &207174315448216668
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -47476,7 +47556,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &2473754917917831134
 GameObject:
   m_ObjectHideFlags: 0
@@ -72241,7 +72321,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &7473386134460617863
 Animator:
   serializedVersion: 7
@@ -72839,7 +72919,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!23 &7566166524101768990
 MeshRenderer:
   m_ObjectHideFlags: 0
