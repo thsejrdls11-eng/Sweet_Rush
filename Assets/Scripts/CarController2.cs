@@ -49,7 +49,7 @@ public class CarController2 : MonoBehaviour
                 // [스핀 방지 핵심] 앞바퀴 브레이크를 뒷바퀴보다 강하게 설정
                 // 앞바퀴(front)는 bias 2.0, 뒷바퀴(rear)는 bias 0.5
                 float bias = (wheel.wheelType == WheelType.front) ? 2.0f : 0.5f;
-                wheel.collider.brakeTorque = powerMultiplier * bias;
+                wheel.collider.brakeTorque = powerMultiplier * bias * 5;
             }
             else // 브레이크를 떼었을 때 (breakPower가 1일 때)
             {

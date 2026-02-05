@@ -30,6 +30,8 @@ public class UIManager : MonoBehaviour
     {
         UpdateLap();
         UpdateRank();
+        UpdateTime();
+
         StartCoroutine(StartCountDown());
 
     }
@@ -61,20 +63,20 @@ public class UIManager : MonoBehaviour
 
     public void UpdateLap()
     {
-        lapText.text = $"{MainManager.instance.player.labCount+1}/{MainManager.instance.maxLapCount}";
+        lapText.text = $"{MainManager.instance.player.labCount+1} / {MainManager.instance.maxLapCount}";
     }
 
     public void UpdateRank()
     {
-        rankingText.text = $"{MainManager.instance.rank}/{MainManager.instance.allCar.Count}";
+        rankingText.text = $"{MainManager.instance.rank} / {MainManager.instance.allCar.Count}";
     }
 
     public void UpdateTime()
     {
         float time = MainManager.instance.timer;
         float s = time % 60;
-        float m = time / 60;
-        timeText.text = $"{m:00}:{s:00.00}";
+        float m = Mathf.FloorToInt( time / 60);
+        timeText.text = $"{m:00}.{s:00.00}";
     }
 
     public void ResultOpen()
