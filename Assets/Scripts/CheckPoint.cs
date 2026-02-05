@@ -17,7 +17,7 @@ public class CheckPoint : MonoBehaviour
         {
             if (isGoalPoint)
             {
-                if (check.checkPointList.Count == 0) return;
+               // if (check.checkPointList.Count == 0) return;
                 check.GoalCheck();
             }
             else

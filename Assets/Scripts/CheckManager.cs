@@ -12,13 +12,8 @@ public class CheckManager : MonoBehaviour
     
     public void GoalCheck()
     {
-        if (checkPointList.Count >= MainManager.instance.maxWaypoint)
-        {
-            checkPointList.Clear();
-            labCount++;
-
-            if (labCount == MainManager.instance.maxLapCount)
-            {
+       
+     
                 time = MainManager.instance.timer;
                 if(!MainManager.instance.goalList.Contains(this))
                     MainManager.instance.goalList.Add(this);
@@ -30,14 +25,10 @@ public class CheckManager : MonoBehaviour
                 {
                     StartCoroutine(DelayStop());
                 }
-            }
-            if (gameObject.CompareTag("Player")) MainManager.instance.uiManager.UpdateLap();
-        }
-        else
-        {
-            //∫Œ¡§?
-            return;
-        }
+            
+     
+        
+       
     }
 
     public void AddCheckPoint(CheckPoint point)
@@ -51,7 +42,7 @@ public class CheckManager : MonoBehaviour
 
     IEnumerator DelayStop()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(1);
         gameObject.TryGetComponent<CarAIControl>(out var aiControl);
         aiControl.StopDrive();
     }
