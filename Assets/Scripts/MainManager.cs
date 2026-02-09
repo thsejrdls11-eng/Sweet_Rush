@@ -143,7 +143,5 @@ namespace Game
         {
             SceneManager.LoadScene(0);
         }
-
-
     }
 }
