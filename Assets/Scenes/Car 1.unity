@@ -11081,7 +11081,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: 'Back to Title
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3df8ef4b52c147645bc0aa15aa5d87cb, type: 2}
   m_sharedMaterial: {fileID: -7151315021852411949, guid: 3df8ef4b52c147645bc0aa15aa5d87cb, type: 2}
