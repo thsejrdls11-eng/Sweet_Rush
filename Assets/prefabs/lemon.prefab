@@ -3078,6 +3078,7 @@ MonoBehaviour:
   trackwidth: 1.5
   breakPower: 1
   maxSpd: 80
+  currentSpeed: 0
 --- !u!114 &4164111263004716019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3624,7 +3625,7 @@ WheelCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3933412795159957979}
   serializedVersion: 2
-  m_Center: {x: 0, y: 0.15, z: 0}
+  m_Center: {x: -0.15, y: 0.15, z: 0}
   m_Radius: 0.4
   m_SuspensionSpring:
     spring: 35000
@@ -6989,7 +6990,7 @@ WheelCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7889980868126597822}
   serializedVersion: 2
-  m_Center: {x: 0, y: 0.15, z: 0}
+  m_Center: {x: 0.15, y: 0.15, z: 0}
   m_Radius: 0.4
   m_SuspensionSpring:
     spring: 35000
@@ -7239,7 +7240,7 @@ WheelCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8201138356607393985}
   serializedVersion: 2
-  m_Center: {x: 0, y: 0.15, z: 0}
+  m_Center: {x: 0.15, y: 0.15, z: 0}
   m_Radius: 0.4
   m_SuspensionSpring:
     spring: 35000
@@ -7667,7 +7668,7 @@ WheelCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8490862017417716361}
   serializedVersion: 2
-  m_Center: {x: 0, y: 0.15, z: 0}
+  m_Center: {x: -0.15, y: 0.15, z: 0}
   m_Radius: 0.4
   m_SuspensionSpring:
     spring: 35000

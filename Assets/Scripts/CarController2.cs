@@ -12,6 +12,8 @@ public class CarController2 : MonoBehaviour
     public float breakPower=1;
     public float maxSpd = 80;
 
+    public float currentSpeed;
+
     public void OnMove(InputAction.CallbackContext ctx) // 이동 메서드(입력 들어가면 실행)
     {
         moveInput = ctx.ReadValue<Vector2>(); //입력받은 값을 vector2로 읽어들임
@@ -101,6 +103,9 @@ public class CarController2 : MonoBehaviour
             }
         }
         AddDownForce();
+
+        // 유틸리티: 오디오 매니저에서 활용 가능하도록 속도 변수 노출
+        currentSpeed = speed;
     }
 
     [System.Serializable]
