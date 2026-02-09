@@ -19512,7 +19512,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 64719822316ad2c4e9b4804b9060c083, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.171
+  m_Volume: 0.122
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -27016,7 +27016,7 @@ MonoBehaviour:
   m_MaxHandbrakeTorque: 20000
   m_Downforce: 100
   m_SpeedType: 1
-  m_Topspeed: 100
+  m_Topspeed: 70
   m_RevRangeBoundary: 1
   m_SlipLimit: 0.4
   m_BrakeTorque: 20000
@@ -28766,7 +28766,7 @@ MonoBehaviour:
   m_MaxHandbrakeTorque: 20000
   m_Downforce: 100
   m_SpeedType: 1
-  m_Topspeed: 100
+  m_Topspeed: 70
   m_RevRangeBoundary: 1
   m_SlipLimit: 0.4
   m_BrakeTorque: 20000
@@ -29263,9 +29263,9 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: bc1a80d3891e9c243968bb4e9e9493a5, type: 3}
+  m_Resource: {fileID: 8300000, guid: c0fcc454451c4a64bbebf800640361c1, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.519
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -40461,7 +40461,7 @@ Transform:
   m_GameObject: {fileID: 1232146035}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -85, y: 113.8, z: 4.3}
+  m_LocalPosition: {x: -85, y: 109.59, z: 4.3}
   m_LocalScale: {x: 4.169401, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -53949,7 +53949,7 @@ GameObject:
   - component: {fileID: 1457716461}
   - component: {fileID: 1457716460}
   m_Layer: 5
-  m_Name: Button
+  m_Name: exitButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53972,7 +53972,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -415}
+  m_AnchoredPosition: {x: 0, y: -457}
   m_SizeDelta: {x: 246.3705, y: 93.3383}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1457716460
@@ -57486,7 +57486,7 @@ MonoBehaviour:
   m_MaxHandbrakeTorque: 20000
   m_Downforce: 100
   m_SpeedType: 1
-  m_Topspeed: 100
+  m_Topspeed: 70
   m_RevRangeBoundary: 1
   m_SlipLimit: 0.4
   m_BrakeTorque: 20000
@@ -73257,7 +73257,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2000161401
 RectTransform:
   m_ObjectHideFlags: 0
@@ -81042,6 +81042,46 @@ PrefabInstance:
     - target: {fileID: 6448263795562817519, guid: 3003b019b33dfd54ea2045fa96f86845, type: 3}
       propertyPath: m_SidewaysFriction.m_Stiffness
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8773325731204220067, guid: 3003b019b33dfd54ea2045fa96f86845, type: 3}
+      propertyPath: m_ActionEvents.Array.size
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 8773325731204220067, guid: 3003b019b33dfd54ea2045fa96f86845, type: 3}
+      propertyPath: m_ActionEvents.Array.data[20].m_ActionId
+      value: 46c32440-80ee-4d3d-8732-99c06437eb5f
+      objectReference: {fileID: 0}
+    - target: {fileID: 8773325731204220067, guid: 3003b019b33dfd54ea2045fa96f86845, type: 3}
+      propertyPath: m_ActionEvents.Array.data[20].m_ActionName
+      value: 'Player/Respawn[/Keyboard/r]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8773325731204220067, guid: 3003b019b33dfd54ea2045fa96f86845, type: 3}
+      propertyPath: m_ActionEvents.Array.data[20].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8773325731204220067, guid: 3003b019b33dfd54ea2045fa96f86845, type: 3}
+      propertyPath: m_ActionEvents.Array.data[20].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8773325731204220067, guid: 3003b019b33dfd54ea2045fa96f86845, type: 3}
+      propertyPath: m_ActionEvents.Array.data[20].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2107995511}
+    - target: {fileID: 8773325731204220067, guid: 3003b019b33dfd54ea2045fa96f86845, type: 3}
+      propertyPath: m_ActionEvents.Array.data[20].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8773325731204220067, guid: 3003b019b33dfd54ea2045fa96f86845, type: 3}
+      propertyPath: m_ActionEvents.Array.data[20].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BtnRePos
+      objectReference: {fileID: 0}
+    - target: {fileID: 8773325731204220067, guid: 3003b019b33dfd54ea2045fa96f86845, type: 3}
+      propertyPath: m_ActionEvents.Array.data[20].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: RingOut, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8773325731204220067, guid: 3003b019b33dfd54ea2045fa96f86845, type: 3}
+      propertyPath: m_ActionEvents.Array.data[20].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

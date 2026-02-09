@@ -1,3 +1,4 @@
+using Game;
 using UnityEngine;
 
 public class CarAudioManager : MonoBehaviour
@@ -23,8 +24,16 @@ public class CarAudioManager : MonoBehaviour
 
     private void Update()
     {
-        // _engineAudioSource.pitch = _engineAudioCurve.Evaluate(_TEST_PITCH);
-        _engineAudioSource.pitch = _engineAudioCurve.Evaluate(_carController.currentSpeed / _maxSpd);
+        if (!MainManager.instance.isStart)
+        {
+            _engineAudioSource.volume = 0;
+        }
+        else
+        {
+            _engineAudioSource.volume = 1f;
+        }
+            // _engineAudioSource.pitch = _engineAudioCurve.Evaluate(_TEST_PITCH);
+            _engineAudioSource.pitch = _engineAudioCurve.Evaluate(_carController.currentSpeed / _maxSpd);
 
     }
 }
