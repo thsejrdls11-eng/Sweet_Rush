@@ -14,7 +14,7 @@ public class RankPrefab : MonoBehaviour
         id.text = _id;
         rank.text = _rank.ToString();
         if(_t > 0)
-            time.text = $"{_t / 60:00}:{_t % 60:00.00}";
+            time.text = $"{Mathf.FloorToInt(_t / 60):00}:{_t % 60:00.00}";
         else
         {
             time.text = "RETIRE";
